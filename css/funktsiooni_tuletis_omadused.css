@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+  }
+
+.pealkiri {
+    text-align: center;
+}
+
+header {
+    background-color: darkseagreen;
+    padding: 15px;
+    text-align: center;
+    border: 2px solid #000;
+    font-size: 15px;
+    color: aliceblue;
+    font-family: Verdana;
+    text-shadow: 
+        -1px -1px 0 #000,
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+}
+
+nav {
+    float: left;
+    width: 26%;
+    background-color: rgb(194, 231, 194);
+    padding: 25px;
+    overflow-y: auto;
+    height: 935px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 18px;
+}
+
+.sisukordTekst {
+    color: white;
+    text-decoration: none;
+    font-family: Verdana;
+    text-shadow: 
+        -1px -1px 0 #000,
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 74%;
+    background-color: white;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    background-color: darkseagreen;
+    padding: 10px;
+    border: 2px solid #000;
+    height: 75px;
+    text-align: center;
+    color: black;
+    font-family: Verdana;
+    font-size: 15px;
+}
+
+.githubLink {
+    text-decoration: none;
+    color: white;
+    text-shadow: 
+        -1px -1px 0 #000,
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+}
+
+img {
+    width: 1000px;
+}
